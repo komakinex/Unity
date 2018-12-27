@@ -23,7 +23,7 @@
  			fixed4 frag(v2f_img i) : SV_Target
              {
                  return i.uv.xxxx;
-                 //コメントアウト
+                 //fixed4(i.uv.x, i.uv.x, i.uv.x, i.uv.x)
              }
              ENDCG
          }
